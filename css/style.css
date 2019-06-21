@@ -1,7 +1,9 @@
+.menu-bar{
+    display: none;
+}
 .container {
     position: relative;
 }
-
 .header {
     width: 100%;
     position: absolute;
@@ -315,12 +317,48 @@ ul.list-logo-partner {
     .footer .o-container {
         display: block;
         justify-content: space-between;
+        padding: 0 1rem;
     }
     .o-container {
         max-width: 100%;
         margin: 0 auto;
         padding: 0 0;
     }
+
+    .flex-box {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .header-logo h1{
+        text-align: -webkit-center;
+    }
+    .content1,.content2,.content3{
+        padding: 3.75rem 0;
+    }
+    .content1 .image-content,.content2 .image-content{
+        margin-left: 0px;
+    }
+    .content1 .text-content,.content2 .text-content{
+        padding: 0px;
+    }
+
+    .e-heading-page {
+        font-size: 1.5625rem;
+        line-height: 2.1875rem;
+    }
+
+    .menu-bar{
+        display: block;
+        color: burlywood;
+        font-size: 1.5rem;
+    }
+    .menu-bar .fa-bars{
+        position: absolute;
+        left: 15px;
+        top:5px;
+    }
+    
+
 
     
 }
